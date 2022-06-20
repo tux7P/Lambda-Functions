@@ -1,0 +1,3 @@
+Finding from functional deviation:
+1. There is no need of password while sending a POST request to 'loginaction' lambda function. Instead it can be authenticated only using the username
+2. async functions are used without the await keyword in example.action.ts. If no await is present, the execution is not paused and code will then be executed synchronously as normal. Hence it invalidates the use of async keyword. 
