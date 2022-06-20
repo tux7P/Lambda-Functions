@@ -8,12 +8,12 @@ Instructions of the assesment can be found in this file: [given_instructions.md]
 4. ✅ Bugs found - [Bug.md](https://github.com/tux7P/Lambda-Functions/blob/main/test_resource/Bug.md)
 
 ##### Besides that, my solution has:
-* [Unit tests](https://github.com/tux7P/Lambda-Functions/blob/main/tests/unit.test.ts) [Loginactions & Sumactions] - Created to test both the lambda functions and to increase the code coverage with the help of Jest - [Screenshot of passing tests](https://github.com/tux7P/Lambda-Functions/blob/main/test_resource/screenshots/unit_tests.png)
-* [Github Actions](https://github.com/tux7P/Lambda-Functions/actions) - Created a workflow to run Integration tests and Unit tests on every push to the main branch
-* Superagent - To autoamte HTTP requests with a high-level abstraction 
-* Jest - A testrunner used to automate unit tests with the flexibility to mock and stub the api calls 
-* Code Abstraction - Code abstractions were made to simplify the test implememntation and for better maintainalibility and readability.
-* Commit style - Used conventional commit style.
+* ⚡️ [Unit tests](https://github.com/tux7P/Lambda-Functions/blob/main/tests/unit.test.ts) [Loginactions & Sumactions] - Created to test both the lambda functions and to increase the code coverage with the help of Jest - [Screenshot of passing tests](https://github.com/tux7P/Lambda-Functions/blob/main/test_resource/screenshots/unit_tests.png)
+* ⚡️ [Github Actions](https://github.com/tux7P/Lambda-Functions/actions) - Created a workflow to run Integration tests and Unit tests on every push to the main branch
+* ⚡️ Superagent - To autoamte HTTP requests with a high-level abstraction 
+* ⚡️ Jest - A testrunner used to automate unit tests with the flexibility to mock and stub the api calls 
+* ⚡️ Code Abstraction - Code abstractions were made to simplify the test implememntation and for better maintainalibility and readability.
+* ⚡️ Commit style - Used conventional commit style.
 
 
 ## Task Accomplishment Steps:
