@@ -23,4 +23,14 @@ export class ScenarioSteps {
   public async test02_02() {
     await LoginAction.unauthorized_loginaction().expect(401)
   }
+
+  @when(/I send POST request with username/)
+  public async test3_01() {
+    await LoginAction.single_header_loginaction()
+  }
+
+  @then(/I receive success response and auth token/)
+  public async test03_02() {
+    await LoginAction.single_header_loginaction().expect(200)
+  }
 }

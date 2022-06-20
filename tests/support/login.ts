@@ -12,3 +12,9 @@ exports.unauthorized_loginaction = function() {
     return supertest(BASE_URL)
       .post("/loginaction")
 }
+
+exports.single_header_loginaction = function() {
+    return supertest(BASE_URL)
+      .post("/loginaction")
+      .set('username', 'bob')
+}

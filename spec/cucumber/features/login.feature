@@ -7,3 +7,8 @@ Feature: Loginaction Endpoint
   Scenario: Loginaction POST request returns 401 without auth headers
     When I send POST request without auth headers
     Then I receive unauth response
+  
+  Scenario: Loginaction POST request returns 200 with username only as a header
+    When I send POST request with username
+    Then I receive success response and auth token
+
