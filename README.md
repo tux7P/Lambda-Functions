@@ -2,10 +2,10 @@
 Instructions of the assesment can be found in this file: given_instructions.md
 
 ## Solution
-1. ✅ Postman collection - [Link](../test_resource/QA_Challenge.postman_collection.json)
-2. ✅ Integration tests [Loginactions & Sumactions] - [Link](../spec/cucumber/steps)
-3. ✅ Code coverage - [Link](../test_resource/code_coverage.png)
-4. ✅ Bugs found - [Link](../test_resource/Bug.md)
+1. ✅ Postman collection - [Link](https://github.com/tux7P/Lambda-Functions/blob/main/test_resource/QA_Challenge.postman_collection.json)
+2. ✅ Integration tests [Loginactions & Sumactions] - [Link](https://github.com/tux7P/Lambda-Functions/tree/main/spec/cucumber/steps)
+3. ✅ Code coverage - [Link](https://github.com/tux7P/Lambda-Functions/blob/main/test_resource/screenshots/code_coverage.png)
+4. ✅ Bugs found - [Link](https://github.com/tux7P/Lambda-Functions/blob/main/test_resource/Bug.md)
 
 ##### Besides that, my solution has:
 * Unit tests [Loginactions & Sumactions] - Created to test both the lambda functions and to increase the code coverage with the help of Jest. 
@@ -31,27 +31,27 @@ Instructions of the assesment can be found in this file: given_instructions.md
 ## Test Execution
 1. Clone this repository
 2. Navigate to the path the project was cloned in
-3. Install dependencies: 
+3. Install dependencies using: 
 ```sh
 yarn
 ```
-4. Run integration tests: mocha test
+4. Run integration tests using: 
 ```sh
 yarn test:offline
 ```
-5. Run unit tests: 
+5. Run unit tests using: 
 ```sh
 yarn jest
 ```
-To generate code coverage report: 
+Generate code coverage report using: 
 ```sh
 yarn coverage
 ```
 To test postman collection:
-    1. Import the collection to Postman
-    2. Install serverless globally: `npm -g install serverless@2.72.2`
-    3. Start the server using: `serverless offline`
-    3. Then run the collection
+- Import the collection to Postman
+- Install serverless globally: `npm -g install serverless@2.72.2`
+- Start the server using: `serverless offline`
+- Then run the collection
 
 Further Ideas:
 1. Improve the code coverage 
