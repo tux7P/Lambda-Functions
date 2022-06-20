@@ -7,3 +7,8 @@ exports.successfull_loginaction = function() {
       .set('username', 'bob')
       .set('password','P@55w0rd')
 }
+
+exports.unauthorized_loginaction = function() {
+    return supertest(BASE_URL)
+      .post("/loginaction")
+}
