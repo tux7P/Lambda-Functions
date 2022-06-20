@@ -7,3 +7,9 @@ exports.successfull_sumaction = function() {
       .send({first: 1, second: 2})
       .set({token:"G7T0K3N"})
 }
+
+exports.unauthorized_sumaction = function() {
+    return supertest(BASE_URL)
+      .post("/sumaction")
+      .send({first: 1, second: 2})
+}

@@ -15,4 +15,16 @@ export class ScenarioSteps {
         .expect(200)
         .expect({"result": 3})
   }
+
+  @when(/I send POST request without authotization headers/)
+  public async test2_01() {
+    await sumAction.unauthorized_sumaction()
+  }
+
+  @then(/I get unauth response/)
+  public async test2_02() {
+    await sumAction.unauthorized_sumaction()
+        .expect(401)
+        .expect({"result": 401})
+  }
 }
