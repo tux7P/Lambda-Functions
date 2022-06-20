@@ -27,4 +27,16 @@ export class ScenarioSteps {
         .expect(401)
         .expect({"result": 401})
   }
+
+  @when(/I send POST request with authotization header and without request body/)
+  public async test3_01() {
+    await sumAction.internal_server_error_sumaction()
+  }
+
+  @then(/I get internal server error/)
+  public async test3_02() {
+    await sumAction.internal_server_error_sumaction()
+        .expect(500)
+        .expect({"result": "Missing Body"})
+  }
 }

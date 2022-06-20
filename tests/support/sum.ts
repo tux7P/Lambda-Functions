@@ -13,3 +13,9 @@ exports.unauthorized_sumaction = function() {
       .post("/sumaction")
       .send({first: 1, second: 2})
 }
+
+exports.internal_server_error_sumaction = function() {
+    return supertest(BASE_URL)
+      .post("/sumaction")
+      .set({token:"G7T0K3N"})
+}
