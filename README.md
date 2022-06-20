@@ -2,10 +2,10 @@
 Instructions of the assesment can be found in this file: given_instructions.md
 
 ## Solution
-1. Postman collection - Link
-2. Integration tests [Loginactions & Sumactions] - Link
-3. Code coverage - Link
-4. Bugs found - Link
+1. ✅ Postman collection - [Link](../test_resource/QA_Challenge.postman_collection.json)
+2. ✅ Integration tests [Loginactions & Sumactions] - [Link](../spec/cucumber/steps)
+3. ✅ Code coverage - [Link](../test_resource/code_coverage.png)
+4. ✅ Bugs found - [Link](../test_resource/Bug.md)
 
 ##### Besides that, my solution has:
 * Unit tests [Loginactions & Sumactions] - Created to test both the lambda functions and to increase the code coverage with the help of Jest. 
