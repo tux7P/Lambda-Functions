@@ -4,7 +4,7 @@ Instructions of the assesment can be found in this file: [given_instructions.md]
 ## Solution
 1. ✅ Postman collection - [QA_Challenge.postman_collection.json](https://github.com/tux7P/Lambda-Functions/blob/main/test_resource/QA_Challenge.postman_collection.json)
 2. ✅ Integration tests [Loginactions & Sumactions] - [Folder](https://github.com/tux7P/Lambda-Functions/tree/main/spec/cucumber/steps) & [Screenshot of passing tests](https://github.com/tux7P/Lambda-Functions/blob/main/test_resource/screenshots/Integration_tests.png)
-3. ✅ Code coverage -[Folder]https://github.com/tux7P/Lambda-Functions/tree/main/coverage & [Screenshot of passing tests](https://github.com/tux7P/Lambda-Functions/blob/main/test_resource/screenshots/code_coverage.png)
+3. ✅ Code coverage -[Folder](https://github.com/tux7P/Lambda-Functions/tree/main/coverage) & [Screenshot of passing tests](https://github.com/tux7P/Lambda-Functions/blob/main/test_resource/screenshots/code_coverage.png)
 4. ✅ Bugs found - [Bug.md](https://github.com/tux7P/Lambda-Functions/blob/main/test_resource/Bug.md)
 
 ##### Besides that, my solution has:
