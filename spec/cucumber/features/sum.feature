@@ -11,5 +11,8 @@ Feature: Sumaction Endpoint
    Scenario: Sumaction POST request returns 500 without request body
     When I send POST request with authotization header and without request body
     Then I get internal server error
-  
+ 
+   Scenario: Sumaction POST request returns 500 with null value
+    When I send POST request with auth header and empty body
+    Then I get null value as result with success response code 
  

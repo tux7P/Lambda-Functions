@@ -39,4 +39,16 @@ export class ScenarioSteps {
         .expect(500)
         .expect({"result": "Missing Body"})
   }
+
+  @when(/I send POST request with auth header and empty body/)
+  public async test4_01() {
+    await sumAction.null_result_sumaction()
+  }
+
+  @then(/I get null value as result with success response code/)
+  public async test4_02() {
+    await sumAction.null_result_sumaction()
+        .expect(200)
+        .expect({"result": null})
+  }
 }
