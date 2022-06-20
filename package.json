@@ -5,12 +5,9 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "dev": "serverless offline start --noAuth",
-    "generate:nexus": "ts-node --transpile-only src/modules/gql-model",
-    "test:unit": "mocha --require ts-node/register 'tests/**/*.test.ts'",
-    "test:stage": "ts-node scripts/exportEnv.ts --stage $npm_config_stage && dotenv -e ./.test-stage-env -- cucumber-js -p default",
     "test:offline": "ts-node scripts/runIntegTestsOffline.ts",
-    "exec:offline": "dotenv -e ./.test-offline-env -- cucumber-js -p default"
+    "exec:offline": "dotenv -e ./.test-offline-env -- cucumber-js -p default",
+    "coverage": "jest --coverage"
   },
   "keywords": [],
   "author": "",
