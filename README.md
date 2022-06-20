@@ -3,13 +3,13 @@ Instructions of the assesment can be found in this file: given_instructions.md
 
 ## Solution
 1. ✅ Postman collection - [Link](https://github.com/tux7P/Lambda-Functions/blob/main/test_resource/QA_Challenge.postman_collection.json)
-2. ✅ Integration tests [Loginactions & Sumactions] - [Link](https://github.com/tux7P/Lambda-Functions/tree/main/spec/cucumber/steps)
-3. ✅ Code coverage - [Link](https://github.com/tux7P/Lambda-Functions/blob/main/test_resource/screenshots/code_coverage.png)
+2. ✅ Integration tests [Loginactions & Sumactions] - [Folder](https://github.com/tux7P/Lambda-Functions/tree/main/spec/cucumber/steps) [Screenshot of passing tests](https://github.com/tux7P/Lambda-Functions/blob/main/test_resource/screenshots/Integration_tests.png)
+3. ✅ Code coverage -[Folder]https://github.com/tux7P/Lambda-Functions/tree/main/coverage [Screenshot of passing tests](https://github.com/tux7P/Lambda-Functions/blob/main/test_resource/screenshots/code_coverage.png)
 4. ✅ Bugs found - [Link](https://github.com/tux7P/Lambda-Functions/blob/main/test_resource/Bug.md)
 
 ##### Besides that, my solution has:
-* Unit tests [Loginactions & Sumactions] - Created to test both the lambda functions and to increase the code coverage with the help of Jest. 
-* Github Actions - Created a workflow to run Integration tests and Unit tests on every push to the main branch
+* [Unit tests](https://github.com/tux7P/Lambda-Functions/blob/main/tests/unit.test.ts) [Loginactions & Sumactions] - Created to test both the lambda functions and to increase the code coverage with the help of Jest - [Screenshot of passing tests](https://github.com/tux7P/Lambda-Functions/blob/main/test_resource/screenshots/unit_tests.png)
+* [Github Actions](https://github.com/tux7P/Lambda-Functions/actions) - Created a workflow to run Integration tests and Unit tests on every push to the main branch
 * Superagent - To autoamte HTTP requests with a high-level abstraction 
 * Jest - A toolbox used to automate unit tests with the flexibility to mock and stub the api calls 
 * Code Abstraction - Code abstractions were made to simplify the test implememntation and for better maintainalibility and readability.
